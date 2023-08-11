@@ -1,7 +1,7 @@
 fun main() {
     println("Arrays:")
     
-	val squares = Array(5) { i -> (i * i).toString() }
+    val squares = Array(5) { i -> (i * i).toString() }
     squares.forEach { println(it) }
     
     println(squares.joinToString())
@@ -14,9 +14,9 @@ fun main() {
     val arr = IntArray(5)
     println(arr.joinToString())
 
-	val arrayOfConsts = IntArray(5) { 42 }
+    val arrayOfConsts = IntArray(5) { 42 }
     println(arrayOfConsts.joinToString())
 
-	var arrayOfInts = IntArray(5) { it * 1 }
+    var arrayOfInts = IntArray(5) { it * 1 }
     println(arrayOfInts.joinToString())
 }
