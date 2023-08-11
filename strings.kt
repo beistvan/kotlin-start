@@ -1,7 +1,7 @@
 fun main() {
     println("Strings:")
     
-	val str = "abcd 123"
+    val str = "abcd 123"
     for (c in str) {
         println(c)
     }
