@@ -18,7 +18,7 @@ fun main() {
     val students4 = listOf("Anna", "Lesley", "Harry")
     println(students4[2])
     
-    val students5 = listOf("Mobica", "Sunny", "Bob")
+    val students5 = listOf("Monica", "Sunny", "Bob")
     println(students5.get(2))   
 
 }
