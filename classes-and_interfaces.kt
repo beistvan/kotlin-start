@@ -7,6 +7,7 @@ fun main (args: Array<String>) {
     
     testOne.getValue()
     testTwo.getValue()
+    
     println(testOne) 
     println(testTwo) 
 
