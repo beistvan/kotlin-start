@@ -8,7 +8,8 @@ class Patient() {
 }
 
 fun main() {
-    var patient = Patient() // должно выводить как в примере
+    var patient = Patient()
+    
     println(patient.firstName)
     println(patient.lastName)
     println(patient.iin)
